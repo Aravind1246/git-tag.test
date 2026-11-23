@@ -2,12 +2,12 @@
 # Application Configuration
 application:
   name: Aravionx-Security
-  version: "1.0.0"
-  environment: development
+  version: "1.1.0"
+  environment: producation
 
 server:
   hostname: localhost
-  port: 8080
+  port: 9090
   protocol: https
 
 database:
@@ -23,6 +23,6 @@ security:
 
 monitoring:
   enabled: true
-  log_level: INFO
-  backup: daily
+  log_level: DEBUG
+  backup: weekly
 
