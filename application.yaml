@@ -1,0 +1,28 @@
+
+# Application Configuration
+application:
+  name: Aravionx-Security
+  version: "1.0.0"
+  environment: development
+
+server:
+  hostname: localhost
+  port: 8080
+  protocol: https
+
+database:
+  type: mysql
+  host: 127.0.0.1
+  port: 3306
+  database_name: security_db
+
+security:
+  authentication: true
+  firewall: enabled
+  encryption: AES256
+
+monitoring:
+  enabled: true
+  log_level: INFO
+  backup: daily
+
