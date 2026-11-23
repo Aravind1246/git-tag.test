@@ -2,7 +2,7 @@
 # Application Configuration
 application:
   name: Aravionx-Security
-  version: "1.2.0"
+  version: "1.10.0"
   environment: producation
 
 server:
@@ -12,7 +12,7 @@ server:
 
 database:
   type: mysql
-  host: 127.0.0.1
+  host: 127.0.0.100
   port: 3306
   database_name: security_db
 
