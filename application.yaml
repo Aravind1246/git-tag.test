@@ -7,7 +7,7 @@ application:
 
 server:
   hostname: localhost
-  port: 9090
+  port: 8080
   protocol: https
 
 database:
